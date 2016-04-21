@@ -1,0 +1,232 @@
+@font-face{ font-family: Dosis; src: url('Dosis-Light.ttf');}
+
+body
+{
+	background-color: #191919;
+	font-family: Dosis;
+}
+.title a:hover
+{
+	text-decoration: none;
+}
+.title hr
+{
+	margin : 50px 0;
+}
+.title h1
+{
+	font-family: Dosis;
+	font-size: 80px;
+	font-weight: 100;
+	color: white;
+}
+.img-circle
+{
+	border-style: double;
+	border-width: 3px;
+	border-color: white;
+	width: 20%;
+	margin: 0 auto;
+	margin-top: 10px;
+	-webkit-transition-property: all;
+	-webkit-transition-duration: 0.5s;
+	-webkit-transition-timing-function: ease-in-out;
+	transition-property: all;
+	transition-duration: 0.5s;
+	transition-timing-function: ease-in-out;
+}
+.profile
+{
+	background-color: rgba(150,150,150,0.2);
+	padding: 50px 0 50px 0;
+	-webkit-transition-property: all;
+	-webkit-transition-duration: 0.5s;
+	-webkit-transition-timing-function: ease-in-out;
+	transition-property: all;
+	transition-duration: 0.5s;
+	transition-timing-function: ease-in-out;
+	cursor: pointer;
+}
+.profileImg
+{
+	margin-left: 27%;
+	-webkit-transition-property: all;
+	-webkit-transition-duration: 0.5s;
+	-webkit-transition-timing-function: ease-in-out;
+	transition-property: all;
+	transition-duration: 0.5s;
+	transition-timing-function: ease-in-out;
+}
+.profileText
+{
+	position: absolute;
+	margin-left: 500px;
+	margin-top: 35px;
+	opacity: 0;
+	font-size: 20px;
+	line-height: 2;
+	font-family: Dosis;
+	color: white;
+	border: 1px solid #000;
+	background-color: #120B05;
+	background-color: rgba(0,0,0,.5);
+	-moz-box-shadow: inset 1px 1px 3px #000, 0 0 1px #9F8863;
+	-webkit-box-shadow: inset 1px 1px 3px #000, 0 0 1px #9F8863;
+	box-shadow: inset 1px 1px 3px #000, 0 0 1px #9F8863;
+	-webkit-transition-property: all;
+	-webkit-transition-duration: 0.5s;
+	-webkit-transition-timing-function: ease-in-out;
+	transition-property: all;
+	transition-duration: 0.5s;
+	transition-timing-function: ease-in-out;
+}
+.profileText h1
+{
+	font-size: 50px;
+}
+.aboutMe
+{
+	color: white;
+	margin-top: 3%;
+}
+.aboutMe strong
+{
+	color: #6CC0FF;
+}
+.infoMe
+{
+	color: white;
+	opacity: 0;
+	height: 0;
+	overflow: hidden;
+	-webkit-transition-property: all;
+	-webkit-transition-duration: 0.5s;
+	-webkit-transition-timing-function: ease-in-out;
+	transition-property: all;
+	transition-duration: 0.5s;
+	transition-timing-function: ease-in-out;
+}
+.infoMe h5
+{
+	color: #CC723D;
+	font-size: 17px;
+}
+.infoMe span
+{
+	color: skyblue;
+	font-size: 15px;
+}
+.fold
+{
+	width: 5%;
+	cursor: pointer;
+	margin-left: 45%;
+	opacity: 0;
+	height: 0;
+	-webkit-transition-property: all;
+	-webkit-transition-duration: 0.5s;
+	-webkit-transition-timing-function: ease-in-out;
+	transition-property: all;
+	transition-duration: 0.5s;
+	transition-timing-function: ease-in-out;
+}
+.fold:hover
+{
+	-webkit-transform: scale(1.2);
+	-webkit-transition: all .2s ease-in-out;
+	transform: scale(1.2);
+	transition: all .2s ease-in-out;
+}
+.Idea hr
+{
+	margin-top: -5px;
+	width: 20%;
+	border-color: #CC723D;
+}
+.IdeaTitle
+{
+	color: #CC723D;
+	margin-top: 5%;
+	font-size: 25px;
+}
+.DevTitle
+{
+	color: #3DB7CC;
+	margin-top: 5%;
+	font-size: 25px;
+}
+.Dev hr
+{
+	margin-top: -5px;
+	width: 20%;
+	border-color: #3DB7CC;
+}
+.ExpTitle
+{
+	color: #A566FF;
+	margin-top: 5%;
+	font-size: 25px;
+}
+.Exp hr
+{
+	margin-top: -5px;
+	width: 20%;
+	border-color: #A566FF;
+}
+.Idea a, .Dev a, .Exp a
+{
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+}
+.Idea h4, .Dev h4, .Exp h4
+{
+	color: #CC3D3D;
+	font-weight: 400;
+}
+.Exp h4
+{
+	font-size: 13px;
+}
+.Idea span, .Dev span, .Exp span
+{
+	color: white;
+}
+#myTab
+{
+	margin-top: 5%;
+	font-size: 25px;
+	padding-bottom: 10px;
+}
+#myTab li
+{
+	float: left;
+	padding-right: 20px;
+}
+#myTab > li > a
+{
+	color : white;
+}
+.nav-tabs > .active > a,
+.nav-tabs > .active > a:hover,
+.nav-tabs > .active > a:focus {
+  color: #555555;
+  cursor: default;
+  background-color: red;
+  border: 1px solid red;
+  border-bottom-color: transparent;
+}
+.nav-tabs > li > a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: -5px;
+  line-height: 25px;
+  border: 1px solid transparent;
+  -webkit-border-radius: 0 0 0 0;
+     -moz-border-radius: 0 0 0 0;
+          border-radius: 0 0 0 0;
+}
+.tab-content
+{
+	margin-top: -50px;
+}

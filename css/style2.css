@@ -1,0 +1,98 @@
+@font-face{ font-family: Dosis; src: url('Dosis-Light.ttf');}
+
+body
+{
+	background-color: #191919;
+	font-family: Dosis;
+}
+.title a:hover
+{
+	text-decoration: none;
+}
+.title hr
+{
+	margin : 50px 0;
+}
+.title h1
+{
+	font-family: Dosis;
+	font-size: 80px;
+	font-weight: 100;
+	color: white;
+}
+.board 
+{
+	background-color: rgba(150,150,150,0.2);
+	padding: 50px 0 50px 0;
+}
+.board a
+{
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+}
+h4
+{
+	color: #CC3D3D;
+	font-weight: 400;
+	font-size: 40px;
+}
+h5
+{
+	color: white;
+	font-weight: lighter;
+}
+h6
+{
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+}
+.award
+{
+	width: 15%;
+	margin-top: 10px;
+}
+.awardText
+{
+	color: white;
+	vertical-align: bottom;
+	-webkit-vertical-align: bottom;
+	font-weight: bold;
+	font-size: 17px;
+}
+iframe
+{
+	margin-left: -30px;
+}
+.board hr
+{
+	border-width: 1px;
+}
+.mediaBoard
+{
+	margin-top: 50px;
+}
+.infoBoard
+{
+	margin-top: 50px;
+}
+.textBoard
+{
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+	padding: 20px 20px 20px 20px;
+	margin-left: 50px;
+}
+.textBoard p
+{
+
+	color: white;
+	font-size: 17px;
+}
+.textBoard span
+{
+
+	color: orange;
+}
