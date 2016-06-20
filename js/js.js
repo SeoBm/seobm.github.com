@@ -15,7 +15,7 @@ $(document).ready(function(){
 		$('.profileText').css("marginLeft","450px")
 		$('.profileText').css("opacity","1")
 		$('.infoMe').css("opacity","1")
-		$('.infoMe').css("height","900px")
+		$('.infoMe').css("height","1000px")
 		$('.fold').css({
 			"opacity" : "1",
 			"height" : "auto"
